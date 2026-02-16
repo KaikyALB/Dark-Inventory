@@ -13,6 +13,10 @@ public class MouseInteractItem : MonoBehaviour
 
     [SerializeField]public RectTransform smallPanel;
     [SerializeField] private Canvas canvas;
+    private void Awake()
+    {
+        
+    }
     private void Update()
     {
         SpriteRenderer restImage = GetComponentInChildren<SpriteRenderer>();

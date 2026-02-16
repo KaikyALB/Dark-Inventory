@@ -5,16 +5,13 @@ using UnityEngine.UIElements;
 
 public class MouseBehavior : MonoBehaviour
 {
+    public Vector3 mousePos;
     void Start()
     {
-        
+
     }
     void Update()
     {
-        
-    }
-    private void OnMouseDrag(PointerEnterEvent pee)
-    {
-        
+        mousePos = transform.position;
     }
 }
